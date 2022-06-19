@@ -3,7 +3,7 @@ package junit;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class Demo {
+public class Demo1 {
 
 
     @Test

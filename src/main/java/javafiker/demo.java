@@ -2,7 +2,7 @@ package javafiker;
 
 import com.github.javafaker.Faker;
 
-public class Demo {
+public class demo {
     private static Faker faker = new Faker();
 
     public static void main(String[] args) {

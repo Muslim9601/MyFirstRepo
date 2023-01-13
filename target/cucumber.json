@@ -1,0 +1,525 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "some precondation",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 107470000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"http://www.facebook.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.facebook.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_is_on(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Demo1",
+        "description": "",
+        "id": "scenario-outline-practice;demo1;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 109600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter \"Ghon\" in first name input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ghon",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_first_name_input_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter \"Trabolta\" in last name input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Trabolta",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_last_name_input_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter \"23.05.2001\" in birthday input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23.05.2001",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_birthday_input_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter \"Ghon@mail.ru\" in login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ghon@mail.ru",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_login_input_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter \"qwerty123\" in password input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qwerty123",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_password_input_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter \"19\" in age input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "19",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_age_input_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@ScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "some precondation",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 116600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"http://www.facebook.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.facebook.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_is_on(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Demo1",
+        "description": "",
+        "id": "scenario-outline-practice;demo1;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 116300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter \"Asan\" in first name input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Asan",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_first_name_input_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter \"Iterator\" in last name input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Iterator",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_last_name_input_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter \"14.07.1998\" in birthday input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14.07.1998",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_birthday_input_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter \"Asan@mail.ru\" in login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Asan@mail.ru",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_login_input_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter \"qwer123\" in password input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qwer123",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_password_input_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter \"24\" in age input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_age_input_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@ScenarioOutline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "some precondation",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 139600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"http://www.facebook.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.facebook.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_is_on(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Demo1",
+        "description": "",
+        "id": "scenario-outline-practice;demo1;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 190800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter \"Nursultan\" in first name input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nursultan",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_first_name_input_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter \"Musakunov\" in last name input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Musakunov",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_last_name_input_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter \"06.05.1992\" in birthday input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "06.05.1992",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_birthday_input_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter \"Nuta@mail.ru\" in login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nuta@mail.ru",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_login_input_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter \"nuta92\" in password input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nuta92",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_password_input_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter \"30\" in age input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 12
+                }
+              ],
+              "location": "ScenarioStepDefs.user_enter_in_age_input_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@ScenarioOutline"
+          }
+        ]
+      }
+    ],
+    "name": "Scenario outline practice",
+    "description": "",
+    "id": "scenario-outline-practice",
+    "keyword": "Feature",
+    "uri": "features/ScenarioOutline.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ScenarioOutline"
+      }
+    ]
+  }
+]

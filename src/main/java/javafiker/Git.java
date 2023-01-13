@@ -1,7 +1,7 @@
 package javafiker;
 
-public class Test {
+public class Git {
     public static void main(String[] args) {
-        System.out.println("Test");
+        System.out.println("jmnfdijngg");
     }
 }

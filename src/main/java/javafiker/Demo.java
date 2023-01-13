@@ -1,6 +1,7 @@
 package javafiker;
 
 import com.github.javafaker.Faker;
+import org.junit.Test;
 
 public class Demo {
     private static Faker faker = new Faker();
@@ -16,27 +17,33 @@ public class Demo {
 
     }
 
-    public static String generateFakeFirstName(){
+    public static String generateFakeFirstName() {
         return "Hello my name is " + faker.name().firstName();
     }
 
-    public static String generateFakeLastName(){
+    public static String generateFakeLastName() {
         return "Surname is  " + faker.name().lastName();
     }
-    public static String generateFakeEmailAddress(){
+
+    public static String generateFakeEmailAddress() {
         return "Email is  " + faker.internet().emailAddress();
     }
-    public static String generateArtistName(){
+
+    public static String generateArtistName() {
         return faker.artist().name();
     }
-    public static String generateFakeAnimalName(){
+
+    public static String generateFakeAnimalName() {
         return faker.animal().name();
     }
-    public static String generateFakeProgrammerName(){
+
+    public static String generateFakeProgrammerName() {
         return faker.programmingLanguage().name();
     }
-    public static String generateFake(){
+
+    public static String generateFake() {
         return faker.internet().domainName();
     }
 
 }
+
